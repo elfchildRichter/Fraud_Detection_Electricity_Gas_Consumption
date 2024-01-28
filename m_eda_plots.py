@@ -5,11 +5,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-sns.set_style("whitegrid")
-plt.rcParams['font.size'] = 10
+plt.style.use('bmh')
+plt.rcParams['font.size'] = 14
 
 
 def feature_target_distribution(df, feature, target):
+    
     grouped = df.groupby([feature, target]).size().unstack(fill_value=0)
 
     grouped['ratio_0'] = grouped[0] / (grouped[1] + grouped[0]) 
@@ -38,6 +39,9 @@ def feature_target_distribution(df, feature, target):
         label_position_0 = height_0 / 2 
         ax.annotate(f'{grouped["ratio_0"].iloc[i]:.2%}', (i-0.2, label_position_0), va='center')
         
+        
+    plt.style.use('bmh')
+    plt.rcParams['font.size'] = 14
     plt.title(f'Percentage of Fraudulent and Non-fraudulent cases vs {feature.capitalize()}')
     plt.xticks(rotation=0)
     plt.xlabel(f'{feature.capitalize()}')
@@ -91,7 +95,8 @@ def fraud_ratio(df):
                     xytext = (0, 5), 
                     textcoords = 'offset points')
 
-
+    plt.style.use('bmh')
+    plt.rcParams['font.size'] = 14
     plt.title('Percentage of Fraudulent vs Non-Fraudulent Clients')
     plt.xlabel('Target')
     plt.ylabel('Percentage (%)')

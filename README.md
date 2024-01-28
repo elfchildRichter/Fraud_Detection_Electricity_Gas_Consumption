@@ -1,4 +1,4 @@
-# Supervised Learning Project: Fraud Detection in Electricity and Gas Consumption
+# Project: Fraud Detection in Electricity and Gas Consumption
 
 ## Project Overview
 This project focuses on developing a supervised machine learning model to detect fraudulent activities in electricity and gas consumption. It is a classification to identify clients involved in fraudulent manipulations of meters. The type of learning employed is supervised learning, as the model will be trained on labeled data indicating fraudulent and non-fraudulent activities.
@@ -30,6 +30,6 @@ The dataset for this project is obtained from the official [STEG website](https:
    - **Counter_type**: Type of counter used.
 
 
-- Categorical: client_id, district, client_catg, region, target
+- Categorical: 'district', 'client_catg', 'region', 'counter_type', 'counter_number', 'counter_statue', 'counter_code', 'reading_remqrque'
 
-- Numerical: tarif_type, counter_coefficient, consommation_level, old_index, new_index
+- Numerical: other features besides categorical features
