@@ -1,7 +1,7 @@
 # Project: Fraud Detection in Electricity and Gas Consumption
 
 ## Project Overview
-This project focuses on developing a supervised machine learning model to detect fraudulent activities in electricity and gas consumption. It is a classification to identify clients involved in fraudulent manipulations of meters. The type of learning employed is supervised learning, as the model will be trained on labeled data indicating fraudulent and non-fraudulent activities.
+This project develops a supervised machine learning model to detect fraudulent activities in electricity and gas consumption. It is a classification and the model will be trained on labeled data indicating fraudulent and non-fraudulent activities.
 
 ## Project Goals
 The goal of this project is to reduce financial losses suffered by the Tunisian Company of Electricity and Gas (STEG) due to meter tampering by consumers. By accurately detecting fraud, which could enhance the company's revenue and ensure fair billing practices. This initiative not only serves an economic purpose but also promotes ethical consumer behavior.
