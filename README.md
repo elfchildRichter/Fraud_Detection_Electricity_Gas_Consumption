@@ -1,3 +1,6 @@
+P.S. My work doesn't fit into one Jupyter notebook, so I've uploaded the files to a GitHub repository, where you can find detailed information about the machine learning approach used. Here is the link:
+[Fraud_Detection](https://github.com/elfchildRichter/Fraud_Detection) https://github.com/elfchildRichter/Fraud_Detection
+
 # Project: Fraud Detection in Electricity and Gas Consumption
 
 ## Project Overview
@@ -33,3 +36,35 @@ The dataset for this project is obtained from the official [STEG website](https:
 - Categorical: 'district', 'client_catg', 'region', 'counter_type', 'counter_number', 'counter_statue', 'counter_code', 'reading_remqrque'
 
 - Numerical: other features besides categorical features
+
+
+<br><br>
+
+
+The repository includes:
+
+## EDA and Dat Preprocessing
+Conduct exploratory data analysis on the training and testing data, including data visualization and statistical analysis, cleaning and preprocessing the raw data.
+
+## Baseline Model
+Create an initial prediction model using the preprocessed dataset and the LightGBM, serving as the basis for subsequent improvements.
+
+## LightGBM_1 to LightGBM_5
+Models 1 to 5 represent stages in the process following feature engineering, feature selectoin based on feature importance and correlation, and hyperparameter tuning. Compare and analyze the predictive results of these models to evaluate the impact of various methods and approaches.
+
+## Final Model and Prediction
+Summarize the procedures, such as data preprocessing, aggregation, and hyperparameter tuning, to establish the final model and predict the target for unknown test data.
+
+## Brief Summary
+
+- In the original dataset, features such as 'region', 'counter_number', 'counter_code', 'new_index', 'old_index', and 'tarif_type' have a significant impact on the prediction model.
+
+- Introducing new features like 'uniq_counter' and 'uniq_counter_num' evidently enhances the model's performance.
+
+- Feature selection based on calculating feature importance and correlation is an effective strategy to prevent overfitting without compromising model performance.
+
+- Statistical values derived from categorical and numerical featues substantially improve the model's accuracy.
+
+- Hyperparameter tuning using Bayesian optimization can identify an improved set of parameters, leading to a slight enhancement in model efficacy.
+
+- More details are available in the repository.
