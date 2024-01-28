@@ -5,8 +5,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-plt.style.use('bmh')
-plt.rcParams['font.size'] = 14
+# plt.style.use('bmh')
+# plt.rcParams['font.size'] = 10
 
 
 def feature_target_distribution(df, feature, target):
@@ -41,7 +41,7 @@ def feature_target_distribution(df, feature, target):
         
         
     plt.style.use('bmh')
-    plt.rcParams['font.size'] = 14
+    plt.rcParams['font.size'] = 10
     plt.title(f'Percentage of Fraudulent and Non-fraudulent cases vs {feature.capitalize()}')
     plt.xticks(rotation=0)
     plt.xlabel(f'{feature.capitalize()}')
@@ -96,7 +96,7 @@ def fraud_ratio(df):
                     textcoords = 'offset points')
 
     plt.style.use('bmh')
-    plt.rcParams['font.size'] = 14
+    plt.rcParams['font.size'] = 10
     plt.title('Percentage of Fraudulent vs Non-Fraudulent Clients')
     plt.xlabel('Target')
     plt.ylabel('Percentage (%)')
