@@ -1,6 +1,9 @@
 P.S. My work doesn't fit into one Jupyter notebook, so I've uploaded the files to a GitHub repository, where you can find detailed information about the machine learning approach used. Here is the link:
 [Fraud_Detection](https://github.com/elfchildRichter/Fraud_Detection) https://github.com/elfchildRichter/Fraud_Detection
 
+<br>
+Final project for MSDS DTSA-5509
+
 # Project: Fraud Detection in Electricity and Gas Consumption
 
 ## Project Overview
