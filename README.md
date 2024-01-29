@@ -1,8 +1,10 @@
-P.S. My work doesn't fit into one Jupyter notebook, so I've uploaded the files to a GitHub repository, where you can find detailed information about the machine learning approach used. Here is the link:
-[Fraud_Detection](https://github.com/elfchildRichter/Fraud_Detection) https://github.com/elfchildRichter/Fraud_Detection
+<!-- P.S. My work doesn't fit into one Jupyter notebook, so I've uploaded the files to a GitHub repository, where you can find detailed information about the machine learning approach used. Here is the link:
+[Fraud_Detection](https://github.com/elfchildRichter/Fraud_Detection) https://github.com/elfchildRichter/Fraud_Detection -->
 
 <br>
-Final project for MSDS DTSA-5509
+UC Boulder MSDS course work
+
+DTSA-5509 Intro to Machine Learning Final Project
 
 # Project: Fraud Detection in Electricity and Gas Consumption
 
@@ -70,4 +72,4 @@ Summarize the procedures, such as data preprocessing, aggregation, and hyperpara
 
 - Hyperparameter tuning using Bayesian optimization can identify an improved set of parameters, leading to a slight enhancement in model efficacy.
 
-- More details are available in the repository.
+<!-- - More details are available in the repository. -->
