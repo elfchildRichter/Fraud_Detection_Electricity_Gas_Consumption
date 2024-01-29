@@ -43,8 +43,7 @@ The dataset for this project is obtained from the official [STEG website](https:
 - Numerical: other features besides categorical features
 
 
-<br><br>
-
+<br>
 
 The repository includes:
 
@@ -73,3 +72,8 @@ Summarize the procedures, such as data preprocessing, aggregation, and hyperpara
 - Hyperparameter tuning using Bayesian optimization can identify an improved set of parameters, leading to a slight enhancement in model efficacy.
 
 <!-- - More details are available in the repository. -->
+
+## Public Score
+![rank](/Pics/rank.png)
+![public_score](Pics/public_score.png)
+Jan. 28, 2024
