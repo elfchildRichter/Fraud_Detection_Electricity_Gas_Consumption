@@ -1,7 +1,7 @@
 <!-- P.S. My work doesn't fit into one Jupyter notebook, so I've uploaded the files to a GitHub repository, where you can find detailed information about the machine learning approach used. Here is the link:
-[Fraud_Detection](https://github.com/elfchildRichter/Fraud_Detection) https://github.com/elfchildRichter/Fraud_Detection -->
+[Fraud_Detection](https://github.com/elfchildRichter/Fraud_Detection) https://github.com/elfchildRichter/Fraud_Detection
+<br> -->
 
-<br>
 UC Boulder MSDS course work
 
 DTSA-5509 Intro to Machine Learning Final Project
