@@ -1,14 +1,8 @@
-<!-- P.S. My work doesn't fit into one Jupyter notebook, so I've uploaded the files to a GitHub repository, where you can find detailed information about the machine learning approach used. Here is the link:
-[Fraud_Detection](https://github.com/elfchildRichter/Fraud_Detection) https://github.com/elfchildRichter/Fraud_Detection
-<br> -->
+CU Boulder MSDS DTSA-5509 Intro to Machine Learning
 
-UC Boulder MSDS course work
+# Fraud Detection in Electricity and Gas Consumption
 
-DTSA-5509 Intro to Machine Learning Final Project
-
-# Project: Fraud Detection in Electricity and Gas Consumption
-
-## Project Overview
+## Overview
 This project develops a supervised machine learning model to detect fraudulent activities in electricity and gas consumption. It is a classification and the model will be trained on labeled data indicating fraudulent and non-fraudulent activities.
 
 ## Project Goals
